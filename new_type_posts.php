@@ -191,7 +191,7 @@ function create_bar_menu() {
 
 	$menu_id = 'sgiman';
 
-	$wp_admin_bar->add_menu(array('id' => $menu_id, 'title' => __('WP'), 'href' => '/'));
+	$wp_admin_bar->add_menu(array('id' => $menu_id, 'title' => __('SGIMAN'), 'href' => '/'));
 	//$wp_admin_bar->add_menu(array('parent' => $menu_id, 'title' => __('Homepage'), 'id' => 'sgiman-home', 'href' => 'index.php', 'meta' => array('target' => '_blank')));
 	$wp_admin_bar->add_menu(array('parent' => $menu_id, 'title' => __('Dashboard'), 'id' => 'sgiman-dashboard', 'href' => admin_url('')));
 	$wp_admin_bar->add_menu(array('parent' => $menu_id, 'title' => __('Users'), 'id' => 'sgiman-users', 'href' => admin_url('users.php')));
