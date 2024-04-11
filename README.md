@@ -2,6 +2,6 @@
  
 ## My fist wordpress plugins (2024)
  
-To create these plugins, wordpress plugins were used: advanced-custom-fields-pro (for ACF) and custom-post-type-ui (for PHP code)
+To create these plugins, wordpress plugins were used: advanced-custom-fields-pro, custom-post-type-ui, as well as a structure from wppb.me
 
 **Sgiman @ 2024**
